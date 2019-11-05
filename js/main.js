@@ -19,15 +19,16 @@ $(document).ready(function(){
         $("#popup").fadeOut();
     });
 });
+
 //새글쓰기 팝업창에 텍스트 입력시 글자수 표시에 관한 제이쿼리
 $(function() {
       $('#Txt').keyup(function (e){
           var Txt = $(this).val();
-          $(this).height(((Txt.split('\n').length + 1) * 6) + 'em');
           $('#counter').html(Txt.length + '/300');
       });
       $('#Txt').keyup();
 });
+
 //setinterval을 이용한 실시간 시계
 setInterval(function(){
     var timer = new Date();

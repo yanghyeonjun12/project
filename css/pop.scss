@@ -77,18 +77,19 @@
 }
 //새글쓰기 팝업창의 텍스트에어리어
 textarea{
+    resize: none;
     width: 520px;
+    height: 300px;
     padding: 5px;
     margin-left: 10px;
     border: 3px soild #ccc;
     border-radius: 4%;
-    resize: vertical;
     font-size: 22px;
     font-family: 'Jua', sans-serif;
-    resize: none;
 }
 .int{
     width: 75%;
+    height: 500px;
     margin-top: 6px;
 }
 //글자수 카운터
